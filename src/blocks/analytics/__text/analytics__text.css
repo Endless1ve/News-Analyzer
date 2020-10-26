@@ -1,0 +1,15 @@
+@import url("./analytics__text-date.css");
+@import url("./analytics__text-quantity.css");
+
+.analytics__text{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    display: flex;
+    margin-left: 7.5vw;
+}

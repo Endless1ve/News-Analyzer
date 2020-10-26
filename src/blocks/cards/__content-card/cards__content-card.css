@@ -1,0 +1,12 @@
+.cards__content-card{
+    border-radius: 10px;
+    background: #FFFFFF;
+    width: 100%;
+}
+
+@media screen and (min-width : 320px) and (max-width : 767px){
+    .cards__content-card{
+        margin: 0 auto 16px;
+        width: 288px;
+    }
+   }

@@ -1,0 +1,19 @@
+@import url("./result__content-text.css");
+@import url("./result__content-titles.css");
+@import url("./result__content-weekly.css");
+
+.result__content{
+    margin-left: 104px;
+}
+
+@media screen and (max-width: 1023px){
+    .result__content{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .result__content{
+        margin-left: 7.5vw;
+    }
+}

@@ -1,0 +1,23 @@
+@import url("./__text/commits__text-title.css");
+@import url("./__text/commits__text-link.css");
+@import url("./__text/commits__text.css");
+@import url("./__button/commit__button.css");
+@import url("./__block/commit__block.css");
+
+
+.commits{
+    background: #F5F6F7;
+    padding: 80px 0;
+}
+
+@media screen and (max-width: 767px){
+    .commits{
+        padding: 32px 0;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .commits{
+        padding: 40px 0;
+    }
+}

@@ -1,0 +1,14 @@
+@import url("./__content/header__content.css");
+@import url("./__search/header__search.css");
+@import url("./__search-title/header__search-title.css");
+@import url("./__search-text/header__search-text.css");
+@import url("./__search-block/header__search-block.css");
+
+.header{
+    width: 100%;
+    background-image: url("../../images/header__bakcground.png");
+    background-repeat: no-repeat;
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    background-position: center;
+}

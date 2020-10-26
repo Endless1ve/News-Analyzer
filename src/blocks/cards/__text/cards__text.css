@@ -1,0 +1,39 @@
+@import url("./__text-title/cards__text-title.css");
+@import url("./__text-link/cards__text-link.css");
+
+.cards__text{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 104px;
+}
+
+@media screen and (min-width : 320px) and (max-width : 374px){
+ 
+    .cards__text{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width : 375px) and (max-width : 624px){
+
+    .cards__text{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width : 625px) and (max-width : 767px){
+    .cards__text{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px){
+    .cards__text{
+        padding: 0;
+    }
+}

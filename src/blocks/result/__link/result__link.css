@@ -1,0 +1,13 @@
+.result__link{
+    text-decoration: none;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+}
+
+.result__link_active{
+    color: #1A1B22;
+}

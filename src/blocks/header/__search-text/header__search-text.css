@@ -1,0 +1,31 @@
+.header__search-text{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 32px auto 0;
+    width: 43%;
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px){
+    .header__search-text{
+        width: 58%;
+        margin-left: 160px;
+    }
+}
+
+@media screen and (min-width : 320px) and (max-width : 424px){
+    .header__search-text{
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width : 425px) and (max-width : 767px){
+    .header__search-text{
+        width: 50%;
+        margin-left: 20vw;
+    }
+}

@@ -1,0 +1,14 @@
+@import url("./__menu-element/header__menu-element.css");
+
+.header__menu-elements {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (min-width : 320px) and (max-width : 767px){
+    .header__menu-elements{
+        padding: 0;
+    }
+}

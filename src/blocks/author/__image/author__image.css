@@ -1,0 +1,17 @@
+.author__image{
+    width: 90%;
+}
+
+@media screen and (min-width : 320px) and (max-width : 449px){
+    .author__image{
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width : 450px) and (max-width : 767px){
+    .author__image{
+        width: 380px;
+        margin: 0 auto;
+    }
+}

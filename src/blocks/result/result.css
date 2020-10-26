@@ -1,0 +1,14 @@
+@import url("./__links/result__links.css");
+@import url("./__link/result__link.css");
+@import url("./__title/result__title.css");
+@import url("./__content/result__content.css");
+.result {
+    width: 100%;
+    padding: 40px 0;
+}
+
+@media screen and (max-width: 767px){
+    .result{
+        padding: 24px 0 16px;
+    }
+}

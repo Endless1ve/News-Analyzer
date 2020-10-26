@@ -1,0 +1,15 @@
+@import url("../vendor/fonts.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/theme-dark/theme-dark.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/author/author.css");
+@import url("../blocks/client/client.css");
+@import url("../blocks/technologies/technologies.css");
+@import url("../blocks/swiper/swiper.css");
+@import url("../blocks/swiper/slider.css");
+@import url("../blocks/commits/commits.css");
+
+.body{
+    max-width: 1440px;
+    margin: 0 auto;
+}

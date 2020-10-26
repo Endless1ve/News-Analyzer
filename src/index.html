@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Сервис для анализа происходящих в мире событий.">
+  <title>NewsAnalyzer</title>
+  <link rel="icon" href="<%=require('./images/favicon.ico')%>">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="header__content">
+      <h3 class="header__title">NewsAnalyzer</h3>
+      <ul class="header__menu-elements">
+        <li class="header__menu-element"><a href="./index.html" class="header__menu-link  header__menu-link_active">Главная</a>
+        </li>
+        <li class="header__menu-element"><a href="./about.html" class="header__menu-link">О проекте</a></li>
+      </ul>
+    </div>
+    <div class="header__search">
+      <h1 class="header__search-title">Что в мире творится?</h1>
+      <p class="header__search-text">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за
+        прошедшую неделю.</p>
+      <form class="header__search-block" name="search">
+        <input type="text" class="header__search-input" placeholder="Введите тему новости">
+        <span class="input-error">Нужно ввести ключевое слово</span>
+        <button class="header__search-button">Искать</button>
+      </form>
+    </div>
+  </header>
+  <section class="message">
+    <img src="<%=require('./images/not-found.svg')%>" alt="Ошибка" class="message__image">
+    <h3 class="message__title">Ничего не найдено</h3>
+    <p class="message__text">К сожалению по вашему запросу ничего не найдено.</p>
+  </section>
+  <section class="error-message" style="display: none;">
+    <p class="error-text">Во время запроса произошла ошибка. Возможно, проблема с соединением или сервер недоступен. Подождите немного и попробуйте ещё раз.</p>
+  </section>
+  <section class="preloader">
+    <i class="preloader__circle"></i>
+    <p class="preloader__text">Идет поиск новостей...</p>
+  </section>
+  <section class="cards">
+    <div class="cards__text">
+      <h3 class="cards__text-title">Результаты поиска</h3>
+      <a href="./analytics.html" class="cards__text-link">Посмотреть аналитику &#8250;</a>
+    </div>
+    <div class="cards__content">  
+    </div>
+    <div class="button-container"><button class="cards__button">Показать еще</button></div>
+  </section>
+  <section class="author">
+    <img class="author__image" src="<%=require('./images/author.png')%>" alt="автор">
+    <div class="author__content">
+      <h2 class="author__content-title">Об авторе</h2>
+      <p class="author__content-text"> Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+      <p class="author__content-text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+    </div>
+  </section>
+  <footer class="footer">
+    <p class="footer__copyright">&#169; 2019 Supersite</p>
+    <ul class="footer__menu-elements">
+      <li class="footer__menu-element"><a href="./index.html" class="footer__menu-link">Главная</a></li>
+      <li class="footer__menu-element"><a href="./about.html" class="footer__menu-link">О проекте</a></li>
+      <li class="footer__menu-element"><a href="https://praktikum.yandex.ru/"
+          class="footer__menu-link">Яндекс.Практикум</a></li>
+    </ul>
+    <div class="footer__social">
+      <a href="https://github.com/Endless1ve/praktikum-diplom" class="footer__social-link"><img src="<%=require('./images/github.png')%>" alt="GitHub"
+          class="footer__social-image"></a>
+      <a href="https://www.facebook.com/profile.php?id=100035525679886" class="footer__social-link"><img src="<%=require('./images/fb.png')%>" alt="Facebook" class="footer__social-image"></a>
+    </div>
+  </footer>
+  <script src="<%=htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>

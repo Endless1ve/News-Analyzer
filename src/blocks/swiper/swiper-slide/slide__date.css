@@ -1,0 +1,10 @@
+.slide__date{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #B6BCBF;
+    width: 250px;
+    margin: 24px 0 16px 24px;
+}

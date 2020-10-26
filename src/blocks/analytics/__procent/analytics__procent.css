@@ -1,0 +1,13 @@
+@import url("./analytics__procent-value.css");
+
+.analytics__procent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px){
+    .analytics__procent{
+        display: none;
+    }
+}

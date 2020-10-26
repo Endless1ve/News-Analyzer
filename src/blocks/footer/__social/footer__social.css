@@ -1,0 +1,27 @@
+@import url("./__social-link/footer__social-link.css");
+@import url("./__social-image/footer__social-image.css");
+
+@media screen and (min-width : 320px) and (max-width : 374px){
+
+    .footer__social{
+        margin-top: 10px;
+        order: 2;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (min-width : 375px) and (max-width : 424px){
+    .footer__social{
+        margin-top: 10px;
+        order: 2;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (min-width : 425px) and (max-width : 679px){
+    .footer__social{
+        order: 2;
+        margin-top: 10px;
+    }
+}
+

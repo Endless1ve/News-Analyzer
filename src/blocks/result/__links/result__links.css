@@ -1,0 +1,15 @@
+.result__links{
+    margin-left: 104px;
+}
+
+@media screen and (max-width: 1023px){
+    .result__links{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .result__links{
+        display: none;
+    }
+}

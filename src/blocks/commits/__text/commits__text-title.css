@@ -1,0 +1,30 @@
+.commits__text-title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
+    margin: 0 0 64px 7.2vw;
+}
+
+@media screen and (max-width: 1023px){
+    .commits__text-title{
+        width: 50%;
+        font-size: 30px;
+        line-height: 34px;
+        margin-left: 4vw;
+        margin-bottom: 32px;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .commits__text-title{
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 16px;
+        margin-left: 1;
+    }
+}
+

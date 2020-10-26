@@ -1,0 +1,38 @@
+.header__search-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #2F71E5;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    border-radius: 100px;
+    border: none;
+    width: 168px;
+    height: 64px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header__search-button:hover{
+    cursor: pointer;
+    background: #347EFF;
+}
+
+@media screen and (min-width : 320px) and (max-width : 424px){
+    .header__search-button{
+        position: relative;
+        width: 100%;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (min-width : 425px) and (max-width : 549px){
+    .header__search-button{
+        position: relative;
+        width: 100%;
+        margin-top: 16px;
+    }
+}

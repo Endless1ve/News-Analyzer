@@ -1,0 +1,8 @@
+@import url("./author__slider-image.css");
+@import url("./author__text-mail.css");
+@import url("./author__text-title.css");
+
+.author__text{
+    margin-left: 16px;
+}
+

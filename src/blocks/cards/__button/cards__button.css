@@ -1,0 +1,24 @@
+.cards__button{
+    width: 288px;
+    height: 64px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 80px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.cards__button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.button-container{
+    width: 288px;
+    height: 64px;
+    margin: 0 auto;
+}

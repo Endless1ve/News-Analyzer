@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Сервис для анализа происходящих в мире событий.">
+  <title>NewsAnalyzer</title>
+  <link rel="icon" href="<%=require('./images/favicon.ico')%>">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+<body class="body">
+  <header class="header theme-dark">
+    <div class="header__content">
+      <h3 class="header__title header__title_dark">NewsAnalyzer</h3>
+      <ul class="header__menu-elements">
+        <li class="header__menu-element"><a href="./index.html"
+            class="header__menu-link header__menu-link_dark">Главная</a>
+        </li>
+        <li class="header__menu-element"><a href="./about.html"
+            class="header__menu-link header__menu-link_dark header__menu-link_active header__menu-link_dark_active">О
+            проекте</a></li>
+      </ul>
+    </div>
+  </header>
+  <section class="client">
+    <h2 class="client__title">Клиентам</h2>
+    <div class="client__content">
+      <p class="client__content-text">Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель — показать, чему
+        научился студент, какими технологиями владеет.</p>
+      <p class="client__content-text">Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и
+        масштабируемым.
+        Кроме того, добавлять новые страницы и функциональность проще и быстрее, чем в проектах, выполненных по другим
+        методологиям. Также сайт проще и дешевле поддерживать.</p>
+      <p class="client__content-text">Карточки с новостями приходят с сервера и обрабатываются асинхронно.
+        То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.
+      </p>
+      <p class="client__content-text">При создании проекта была использована сборка технологией Webpack. Это современный
+        подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также сайт работает в старых
+        браузерах.
+        Даже если посетители — пользователи старых операционных систем, у них не будет проблем с отображением. А значит,
+        потенциальная аудитория возрастает.</p>
+      <p class="client__content-text">Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт,
+        мы рекомендуем обратиться к этому студенту.</p>
+    </div>
+  </section>
+  <section class="technologies">
+    <h2 class="technologies__title">Используемые
+      технологии</h2>
+    <div class="technologies__content">
+      <div class="technologies__content-card">
+        <p class="technologies__content-title">HTML</p>
+        <img src="<%=require('./images/html.svg')%>" alt="HTML" class="technologies__content-image">
+      </div>
+      <div class="technologies__content-card">
+        <p class="technologies__content-title">CSS</p>
+        <img src="<%=require('./images/css.svg')%>" alt="CSS" class="technologies__content-image">
+      </div>
+      <div class="technologies__content-card">
+        <p class="technologies__content-title">Java Script</p>
+        <img src="<%=require('./images/js.svg')%>" alt="Java Script" class="technologies__content-image">
+      </div>
+      <div class="technologies__content-card">
+        <p class="technologies__content-title">Webpack</p>
+        <img src="<%=require('./images/webpack.svg')%>" alt="Webpack" class="technologies__content-image">
+      </div>
+    </div>
+  </section>
+  <section class="author">
+    <img class="author__image" src="<%=require('./images/author.png')%>" alt="автор">
+    <div class="author__content">
+      <h2 class="author__content-title">Об авторе</h2>
+      <p class="author__content-text"> Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы
+        занимаетесь, какими технологиями разработки владеете.</p>
+      <p class="author__content-text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и
+        чем можете помочь потенциальным заказчикам.</p>
+    </div>
+  </section>
+
+  <section class="commits">
+    <div class="commits__text">
+      <h3 class="commits__text-title">История коммитов из GitHub</h3>
+      <a href="https://github.com/Endless1ve/praktikum-diplom/commits/master" target="_blank" class="commits__text-link">Открыть в  Github &#8250;</a>
+    </div>
+    <div class="swiper">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="commit__block"><button class="commit__button">Открыть в GitHub</button></div>
+  </section>
+  <footer class="footer">
+    <p class="footer__copyright">&#169; 2019 Supersite</p>
+    <ul class="footer__menu-elements">
+      <li class="footer__menu-element"><a href="./index.html" class="footer__menu-link">Главная</a></li>
+      <li class="footer__menu-element"><a href="./about.html" class="footer__menu-link">О проекте</a></li>
+      <li class="footer__menu-element"><a href="https://praktikum.yandex.ru/"
+          class="footer__menu-link">Яндекс.Практикум</a></li>
+    </ul>
+    <div class="footer__social">
+      <a href="https://github.com/Endless1ve/praktikum-diplom" class="footer__social-link"><img src="<%=require('./images/github.png')%>" alt="GitHub"
+          class="footer__social-image"></a>
+      <a href="https://www.facebook.com/profile.php?id=100035525679886" class="footer__social-link"><img src="<%=require('./images/fb.png')%>" alt="Facebook" class="footer__social-image"></a>
+    </div>
+  </footer>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.analytics__content-line{
+    width: 100%;
+    display: flex;
+    margin-bottom: 56px;
+}
+
+.analytics__content-line:last-child{
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 767px){
+    .analytics__content-line{
+        margin-bottom: 24px;
+    }
+}

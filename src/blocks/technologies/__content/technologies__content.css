@@ -1,0 +1,49 @@
+@import url("./technologies__content-card.css");
+@import url("./technologies__content-image.css");
+@import url("./technologies__content-title.css");
+
+
+.technologies__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 16px;
+    margin-left: 15vw;
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px){
+    .technologies__content{
+        width: 90%;
+        margin-left: 6vw;
+        grid-template-columns: 15% 15% 15% 15%;
+        grid-gap: 60px;
+    }
+}
+
+@media screen and (min-width : 320px) and (max-width : 424px){
+    .technologies__content{
+        grid-template-columns: 40% 40%;
+        grid-gap: 30px;
+        margin: 30px 0 0 20px;
+        width: 90%
+    }
+}
+
+@media screen and (min-width : 425px) and (max-width : 649px){
+    .technologies__content{
+        grid-template-columns: 154px 154px;
+        grid-gap: 30px;
+        margin-top: 30px;
+        margin-left: 5vw;
+        width: 380px;
+    }
+}
+
+@media screen and (min-width : 650px) and (max-width : 767px){
+    .technologies__content{
+        width: 94%;
+        margin-left: 6vw;
+        grid-template-columns: 15% 15% 15% 15%;
+        grid-gap: 60px;
+    }
+}

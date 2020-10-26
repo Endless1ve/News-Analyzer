@@ -1,0 +1,9 @@
+
+.header__menu-link_dark:hover{
+    color: #000;
+}
+
+.header__menu-link_dark_active{
+    border-color: black;
+    color: black;
+}

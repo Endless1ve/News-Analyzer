@@ -1,0 +1,15 @@
+.analytics__content-bar{
+    background: #2F71E5;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 6px 6px;
+    margin-top: 10px;
+}

@@ -1,0 +1,6 @@
+@import url("./swiper-pagination-bullet.css");
+
+.swiper-pagination{
+    position: relative;
+    margin-top: 50px;
+}

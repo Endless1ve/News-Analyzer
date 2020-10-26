@@ -1,0 +1,10 @@
+.author__text-mail{
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    overflow-wrap: break-word;
+    width: 200px;
+}

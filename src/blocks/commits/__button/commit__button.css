@@ -1,0 +1,14 @@
+.commit__button{
+    width: 288px;
+    border: 1px solid #1A1B22;
+    box-sizing: border-box;
+    border-radius: 80px;
+    padding: 15px 69px;
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .commit__button{
+        display: block;
+    }
+}

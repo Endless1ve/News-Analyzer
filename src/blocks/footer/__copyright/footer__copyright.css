@@ -1,0 +1,35 @@
+.footer__copyright{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #B6BCBF;
+    margin: 0;
+}
+
+@media screen and (min-width : 320px) and (max-width : 374px){
+
+    .footer__copyright{
+        order: 3;
+        margin: 40px 0 22px 16px ;
+    }
+
+}
+
+@media screen and (min-width : 375px) and (max-width : 424px){
+    .footer__copyright{
+        order: 3;
+        margin: 40px 0 22px 16px ;
+    }
+}
+
+
+@media screen and (min-width : 425px) and (max-width : 679px){
+    .footer__copyright{
+        order: 3;
+        margin: 40px 0 22px 16px ;
+    }
+}
+
+

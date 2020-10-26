@@ -1,0 +1,16 @@
+@import url("./__title/analytics__title.css");
+@import url("./__text/analytics__text.css");
+@import url("./__procent/analytics__procent.css");
+@import url("./__content/analytics__content.css");
+
+.analytics {
+    width: 100%;
+    background: #F5F6F7;
+    padding: 40px 0;
+}
+
+@media screen and (max-width: 767px){
+    .analytics{
+        padding: 24px 0;
+    }
+}

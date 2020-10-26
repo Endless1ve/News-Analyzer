@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Сервис для анализа происходящих в мире событий.">
+  <title>NewsAnalyzer</title>
+  <link rel="icon" href="<%=require('./images/favicon.ico')%>">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+<body class="body">
+  <header class="header theme-dark">
+    <div class="header__content">
+      <h3 class="header__title header__title-dark">NewsAnalyzer</h3>
+      <ul class="header__menu-elements">
+        <li class="header__menu-element"><a href="./index.html"
+            class="header__menu-link header__menu-link_dark">Главная</a>
+        </li>
+        <li class="header__menu-element"><a href="./about.html" class="header__menu-link header__menu-link_dark">О
+            проекте</a></li>
+      </ul>
+    </div>
+  </header>
+  <section class="result">
+    <div class="result__links">
+      <a href="./index.html" class="result__link result__link_active">Главная</a><a href="./analytics.html"
+        class="result__link"> / Аналитика</a>
+    </div>
+    <h2 class="result__title">Вы спросили: "<span class="result__title-span"></span>"</h2>
+    <div class="result__content">
+      <p class="result__content-text">Новостей за неделю: <span class="result__content-weekly"></span></p>
+      <p class="result__content-text">Упоминаний в заголовках: <span class="result__content-titles"></span></p>
+    </div>
+  </section>
+  <section class="analytics">
+    <h3 class="analytics__title">Аналитика по дням</h3>
+    <div class="analytics__text">
+      <p class="analytics__text-date">Дата
+        <span class="analytics__text-span"></span>
+        </p>
+      <p class="analytics__text-quantity">Кол-во упоминаний</p>
+    </div>
+    <div class="analytics__statistics">
+      <div class="analytics__content">
+        <div class="analytics__procent">
+          <p class="analytics__procent-value">0</p>
+          <p class="analytics__procent-value">25</p>
+          <p class="analytics__procent-value">50</p>
+          <p class="analytics__procent-value">75</p>
+          <p class="analytics__procent-value">100</p>
+        </div>
+        <div class="analytics__content-statistics">
+          
+        </div>
+        <div class="analytics__procent">
+          <p class="analytics__procent-value">0</p>
+          <p class="analytics__procent-value">25</p>
+          <p class="analytics__procent-value">50</p>
+          <p class="analytics__procent-value">75</p>
+          <p class="analytics__procent-value">100</p>
+        </div>
+      </div>
+  </section>
+  <footer class="footer">
+    <p class="footer__copyright">&#169; 2019 Supersite</p>
+    <ul class="footer__menu-elements">
+      <li class="footer__menu-element"><a href="./index.html" class="footer__menu-link">Главная</a></li>
+      <li class="footer__menu-element"><a href="./about.html" class="footer__menu-link">О проекте</a></li>
+      <li class="footer__menu-element"><a href="https://praktikum.yandex.ru/"
+          class="footer__menu-link">Яндекс.Практикум</a></li>
+    </ul>
+    <div class="footer__social">
+      <a href="https://github.com/Endless1ve/praktikum-diplom" class="footer__social-link"><img src="<%=require('./images/github.png')%>" alt="GitHub"
+          class="footer__social-image"></a>
+      <a href="https://www.facebook.com/profile.php?id=100035525679886" class="footer__social-link"><img src="<%=require('./images/fb.png')%>" alt="Facebook" class="footer__social-image"></a>
+    </div>
+  </footer>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>
